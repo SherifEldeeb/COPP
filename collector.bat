@@ -6,7 +6,9 @@
 ::	"...Computer Online Forensic Evidence Extractor (COFEE) is a tool kit, developed by Microsoft, to help computer forensic investigators extract evidence from a Windows computer. Installed on a USB flash drive or other external disk drive, it acts as an automated forensic tool during a live analysis. Microsoft provides COFEE devices and online technical support free to law enforcement agencies.
 ::	====================================
 ::	- A Dos batch script to gather simple information from potentially compromised machine, it's just like a crippled COFEE.
-::	- Gathered data include running processes, loaded modules, autostart entries ... etc.
+::	- It will create a folder with the name of computer with date & time stamp, then iterate through a list of commands and redirecting the output to a text file.
+::	- Gathered data includes running processes, loaded modules, autostart entries ... etc.
+::
 ::	- I needed to do this on a couple of machines, so, instead of running same commands on different machines over and over again, I wrote this simple script.
 ::	- Will add to it whenever I have time :)
 
