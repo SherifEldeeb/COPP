@@ -1,0 +1,39 @@
+cmd.exe /c set
+arp -a
+ipconfig /all
+ipconfig /displaydns
+route print
+net view
+netstat -nao
+netstat -vb
+netstat -ns
+net accounts
+net accounts /domain
+net session
+net share
+net group
+net user
+net localgroup
+net localgroup administrators
+net group administrators
+net view /domain 
+netsh firewall show config
+netsh wlan show network 
+tasklist /svc
+tasklist /m
+gpresult /SCOPE COMPUTER /Z
+gpresult /SCOPE USER /Z
+wmic useraccount list
+wmic group list
+wmic service list brief
+wmic volume list brief
+wmic logicaldisk get description,filesystem,name,size
+wmic netlogin get name,lastlogon,badpasswordcount
+wmic netclient list brief
+wmic netuse get name,username,connectiontype,localname
+wmic share get name,path
+wmic nteventlog get path,filename,writeable
+wmic process list brief
+wmic startup list full
+wmic product get name,version
+wmic qfe
