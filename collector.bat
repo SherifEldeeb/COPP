@@ -34,7 +34,6 @@ set var=%computername%.txt
 
 type ..\commands.txt >> %var%
 
-::for /f "tokens=*" %%a in (commands.txt) do call :comm "%%a"
 for /f "tokens=*" %%a in (..\commands.txt) do @(
 echo. >> %var%
 echo. >> %var%
